@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 int main()
 {
@@ -15,5 +16,5 @@ int main()
 	// const int sally = 6;
 	// sally = 7;
 
-	return 0;
+	return EXIT_SUCCESS;
 }
