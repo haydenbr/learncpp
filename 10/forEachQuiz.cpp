@@ -19,7 +19,7 @@ int main()
 	std::string userName{};
 	std::cin >> userName;
 
-	bool hasMatch = false;
+	bool hasMatch{ false };
 
 	for (const auto& name : names)
 	{
